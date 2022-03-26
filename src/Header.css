@@ -3,9 +3,10 @@
     display: flex;
     align-items: center;
     background-color: #000;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 0;
+
 }
 
 .logo {
@@ -67,4 +68,28 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header_optionBasket {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+
+    .header_searchInput {
+        display: flex;
+        position: static;
+        float: none;
+        flex: 1 1 0px;
+    }
+
 }

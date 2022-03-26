@@ -7,7 +7,7 @@
 
 
 .checkout__ad {
-    width: 100%;
+    width: 130%;
     margin-bottom: 10px;
 
 }
@@ -16,4 +16,17 @@
     margin-right: 10px;
     padding: 10px;
     border-bottom: 1px solid lightgray
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        height: auto;  
+        font-size: 14px; 
+        overflow: auto;
+     
+    }
+    
 }
